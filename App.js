@@ -76,9 +76,9 @@ const MapViewScreen = ({navigation}) => {
                 //   onCameraChange={e => console.warn('onCameraChange', JSON.stringify(e))}
                 //   onMapClick={e => console.warn('onMapClick', JSON.stringify(e))}
                   useTextureView>
-       {setMarker()}
-        {/* <Marker coordinate={P0} onClick={() => console.warn('onClick! p0')} caption={{text: "세드나", align: Align.center}}/>  
-        <Marker coordinate={P4} onClick={() => console.warn('onClick! p0')} caption={{text: "next caption", align: Align.center}}/> */}
+       {/* {setMarker()} */}
+        <Marker coordinate={P0} onClick={() => console.warn('onClick! p0')} caption={{text: "세드나", align: Align.center}}/>  
+        <Marker coordinate={P4} onClick={() => console.warn('onClick! p0')} caption={{text: "next caption", align: Align.center}}/> 
         {/* <Marker coordinate={P1} pinColor="blue" onClick={() => console.warn('onClick! p1')}/>
         <Marker coordinate={P2} pinColor="red" onClick={() => console.warn('onClick! p2')}/>
         <Marker coordinate={P4} onClick={() => console.warn('onClick! p4')} image={require("./marker.png")} width={48} height={48}/> */}
